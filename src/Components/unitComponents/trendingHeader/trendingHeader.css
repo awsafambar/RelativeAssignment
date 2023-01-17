@@ -1,0 +1,19 @@
+.trendingHeader {
+  display: flex;
+  margin-top: 8%;
+  width: 146px;
+  height: 32px;
+  left: 111px;
+  top: 232px;
+  color: #ecf0ff;
+}
+.trendingIcon {
+  margin-right: 1.2rem;
+  width: 1rem;
+  height: 1rem;
+}
+.trendingText {
+  white-space: nowrap;
+  display: inline;
+  font-size: 0.8rem;
+}

@@ -1,0 +1,61 @@
+.container {
+  width: 200px;
+  height: 280px;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 15px;
+  background: linear-gradient(
+    180deg,
+    rgba(98, 106, 136, 0.1) 0%,
+    rgba(46, 49, 73, 0.1) 107.43%
+  );
+  backdrop-filter: blur(50px);
+}
+
+.half-circle {
+  width: 90px;
+  height: 50px;
+  position: absolute;
+  background-color: #14172b;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+  border-bottom-left-radius: 90px;
+  border-bottom-right-radius: 90px;
+  border-top-left-radius: -5%;
+}
+
+.coin {
+  padding-top: 30%;
+  display: flex;
+  justify-content: center;
+}
+.coinText {
+  color: #737bae;
+  font-size: 0.5rem;
+}
+
+.priceMeterUp {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.6rem;
+  margin-top: -10.1%;
+  margin-right: 15%;
+  margin-bottom: 08%;
+  color: green;
+}
+
+.priceMeterDown {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.6rem;
+  margin-top: -10.1%;
+  margin-right: 15%;
+  margin-bottom: 08%;
+  color: red;
+}
+
+.tvlLabel {
+  margin-top: 05%;
+}

@@ -1,0 +1,17 @@
+.popularPair {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 6% 25% 0% 25%;
+  height: 8%;
+  padding: 2%;
+  background-color: #14172b;
+  color: white;
+  font-size: 0.8rem;
+  border-radius: 13px;
+}
+.poplarPairIcon {
+  margin: 5%;
+  width: 1rem;
+  height: 1rem;
+}

@@ -1,0 +1,40 @@
+.iconBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}
+
+.iconOuterCircle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 30%;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+
+  margin-bottom: -20%;
+  z-index: 1000;
+
+  background: linear-gradient(
+    180deg,
+    rgba(98, 106, 136, 0.1) 0%,
+    rgba(46, 49, 73, 0.1) 107.43%
+  );
+  backdrop-filter: blur(50px);
+}
+.iconInnerCircle {
+  width: 35px;
+  height: 35px;
+  background: linear-gradient(
+    180deg,
+    rgba(98, 106, 136, 0.1) 0%,
+    rgba(46, 49, 73, 0.1) 107.43%
+  );
+  backdrop-filter: blur(50px);
+  filter: drop-shadow(0 0 0.75rem grey);
+  border-radius: 50%;
+  border: 1px solid black;
+}
